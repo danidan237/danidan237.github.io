@@ -1,0 +1,128 @@
+/* Définition des polices personnalisées */
+
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+#conteneur
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	width: 1500px;
+	height: 90px;
+	top: 0;
+	background-color: #80bfff;
+	/*position: -webkit-sticky;*/
+	position: fixed;
+	
+}
+#main 
+{
+	width: 900px;
+	background-color: white;
+	margin-left: 180px;
+	margin-top: 0;
+}
+#main section
+{
+	text-align: justify;
+	background: url('images/separateur.png') repeat-x bottom;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+nav ul
+{
+	
+	list-style-type: none;
+	display: flex;
+	align-items: baseline;
+	flex-direction: row;
+	position: absolute;
+	padding-left: 400px;
+	padding-top: 60px;
+}
+nav li
+{
+	margin-right: 15px;
+}
+nav a
+{
+	font-size: 1.3em;
+	color: white;
+	padding-bottom: 3px;
+	text-decoration: none;
+}
+nav a:hover
+{
+	color: #ff4000;
+	border-bottom:3px solid #760001;
+}
+#head 
+{
+	margin: 12px;
+}
+#head img
+{
+	border-radius: 150px;
+	height: 120px;
+	width: 120px;
+	position: relative;
+	top: 50px;
+	left: 50px;
+	/*display: flex;*/
+}
+section
+{
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+}
+body
+{
+	/*background: url('images/plage.jpg') repeat;*/
+	background-image: url('images/plage.jpg');
+	font-family: 'Trebuchet MS', Arial, sans-serif;
+	
+}
+section h3
+{
+	font-family: Dayrom, serif;
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #ff4000;
+}
+section h2
+{
+	font-family: 'BallparkWeiner', serif;
+	font-size: 2.5em;
+	font-weight: normal;
+	color: #80bfff;
+}
+#intro
+{
+	margin-top: 100px;
+}
+#intro span
+{
+	color: #ff4000;
+}
