@@ -126,3 +126,7 @@ section h2
 {
 	color: #ff4000;
 }
+#parcours ul
+{
+	list-style-image:url('sqpurple.gif');
+}
